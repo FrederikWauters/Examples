@@ -79,7 +79,7 @@ void Add_Histogram(double xMin, double xMax, std::vector<double> values)
 {
   count++;
 
-  h[count-1] = new TH1D(Form("hData%02d",count),"data",values.size()/10.,0,10000);
+  h[count-1] = new TH1D(Form("hData%02d",count),"data",20,3,4);
 
   for(int i = 0; i < values.size(); i++)
   {
