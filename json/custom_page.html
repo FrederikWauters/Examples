@@ -1,0 +1,153 @@
+<html>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+ <link rel="stylesheet" href="mhttpd.css" type="text/css" />
+ 
+ <title>muX Trigger Statistics</title>
+ 
+ <script type="text/javascript" src="../mhttpd.js"></script>
+ 
+<!--Refresh part, get odb values -->
+ <script>
+ window.setInterval("Refresh()", 3000);
+ 
+ function Refresh(){
+}
+
+</script>
+</head>
+
+<body onload="Refresh();">
+<form method="GET" action="https://pc12212.psi.ch:8443/CS/TriggerStats">
+<div id="wrapper" class="wrapper">
+<input type=hidden name=exp value="muX">
+
+<table class="navigationTable">
+<tr><td>
+<input type=button name=cmd value="Status" class="navButton" onclick="window.location.href='./?cmd=Status';return false;">
+<input type=button name=cmd value="ODB" class="navButton" onclick="window.location.href='./?cmd=ODB';return false;">
+</td></tr>
+</table>
+
+<table class="ODBtable">
+
+<tr><th colspan=3 class="subStatusTitle">MIDAS Experiment muX</tr>
+
+<tr>
+    <th rowspan="2" colspan="1" class="subStatusTitle" style="vertical-align:middle" id="run_number"></th>
+    <td colspan="2" class="titleCell" id="start_time" align="right">
+</tr>
+<tr>
+    <td colspan="2" class="titleCell" id="stop_time" align="right">
+</tr>
+
+<tr class="titleRow"><th class="ODBvalue">Name<th class="ODBvalue">Trigger/Sum <th class="ODBvalue">Trigger/Rate</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[0]">
+<td class="ODBtableEven" id="s0_sum" style="text-align:right">
+<td class="ODBtableEven" id="s0_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[1]">
+<td class="ODBtableOdd" id="s1_sum" style="text-align:right">
+<td class="ODBtableOdd" id="s1_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[2]">
+<td class="ODBtableEven" id="s2_sum" style="text-align:right">
+<td class="ODBtableEven" id="s2_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[3]">
+<td class="ODBtableOdd" id="s3_sum" style="text-align:right">
+<td class="ODBtableOdd" id="s3_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[4]">
+<td class="ODBtableEven" id="s4_sum" style="text-align:right">
+<td class="ODBtableEven" id="s4_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[5]">
+<td class="ODBtableOdd" id="s5_sum" style="text-align:right">
+<td class="ODBtableOdd" id="s5_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[6]">
+<td class="ODBtableOdd" id="s6_sum" style="text-align:right">
+<td class="ODBtableOdd" id="s6_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[7]">
+<td class="ODBtableOdd" id="s7_sum" style="text-align:right">
+<td class="ODBtableOdd" id="s7_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[8]">
+<td class="ODBtableOdd" id="s8_sum" style="text-align:right">
+<td class="ODBtableOdd" id="s8_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[9]">
+<td class="ODBtableOdd" id="s9_sum" style="text-align:right">
+<td class="ODBtableOdd" id="s9_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[10]">
+<td class="ODBtableOdd" id="s10_sum" style="text-align:right">
+<td class="ODBtableOdd" id="s10_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[11]">
+<td class="ODBtableOdd" id="s11_sum" style="text-align:right">
+<td class="ODBtableOdd" id="s11_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[12]">
+<td class="ODBtableOdd" id="s12_sum" style="text-align:right">
+<td class="ODBtableOdd" id="s12_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[13]">
+<td class="ODBtableOdd" id="s13_sum" style="text-align:right">
+<td class="ODBtableOdd" id="s13_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[14]">
+<td class="ODBtableOdd" id="s14_sum" style="text-align:right">
+<td class="ODBtableOdd" id="s14_rate" style="text-align:right">
+</tr>
+
+<tr>
+<td class="ODBkey" style="padding-left:0.25em"><odb src="/Equipment/Trigger/Settings/SIS3316/Names[15]">
+<td class="ODBtableOdd" id="s15_sum" style="text-align:right">
+<td class="ODBtableOdd" id="s15_rate" style="text-align:right">
+</tr>
+
+
+</table>
+
+<div class="push"></div>
+</div>
+</div> 
+<div id="footerDiv" class="footerDiv">
+<div style="display:inline; float:left;">Experiment muX</div><div style="display:inline;"><a href="?cmd=Help">Help</a></div><div id="last_update" style="display:inline; float:right;">N/A
+</div></div>
+
+</form>
+</body></html>
