@@ -1,0 +1,7 @@
+.L *.C+ , set all branches: 1.801 s
+.L *.C+ , only set one branch : 1.796 s
+python 2.7, simple loop : ~90 s
+python 2.7, using SetBranchAddress : 12 s
+python 2.7, rootpy, simple loop : 74 s
+python 2.7, rootpy, SetBranchAddress : 30-40 s
+

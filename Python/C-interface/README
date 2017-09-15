@@ -1,0 +1,5 @@
+main is a simple c program, printing out the arguments
+the printing function is defined in functions.c
+
+shared_main is the same program, but used the .so files created from functions.c and functions.h
+

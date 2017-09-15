@@ -9,9 +9,9 @@ gROOT->Reset();
 void main()
 {
 
-const Int_t nP1 = 2;
-Double_t x1[nP1]={0.25,1};
-Double_t y1[nP1]={9.7,12};
+const Int_t nP1 = 9;
+Double_t x1[nP1]={0.5,0.52,0.55,0.6,0.63,0.65,0.7,0.75,0.86};
+Double_t y1[nP1]={900,900,1000,1200,1700,1900,4000,5800,10000};
 TGraph *g1 = new TGraph(nP1,x1,y1);
 
 const Int_t nP2 = 2;
@@ -34,7 +34,7 @@ Double_t y4[nP4]={6.9,26,45,41,45};
 Double_t y4Err[nP4]={0.3,4,2,4,2};
 TGraphErrors *g4 = new TGraphErrors(nP4,x4,y4,x4Err,y4Err);
  g4->Draw("ap");
-//Plot(g4);
+Plot(g1);
 
 //PlotMG(g1,g2,g3,g4);
 //PlotMG(g1,g2);
