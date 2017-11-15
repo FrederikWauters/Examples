@@ -8,7 +8,9 @@
 #include <cstring>
 #include <fstream>
 #include "TFile.h"
+#include "TTree.h"
 #include "DataManager.h"
+#include "TRandom.h"
 
 using namespace std;
 
@@ -16,11 +18,13 @@ const int nArgc =3;
 char *fout_name;
 
 int analyze_command_line (int argc, char **argv);
+void tree1w();
 
 int main(int argc, char* argv[])
 {
   std::cout << "Running tensor minimizer ... " << std::endl;
-  
+  tree1w();
+    return 0;
   int ret = analyze_command_line(argc, argv);
   if(ret) { return 1; }
   
@@ -73,4 +77,31 @@ int analyze_command_line(int argc, char **argv)
     return 1;
   }
   return 0;
+}
+
+void tree1w()
+{
+   //create a Tree file tree1.root
+   //create the file, the Tree and a few branches
+   TFile f("tree1.root","recreate");
+   TTree t1("t1","a simple Tree with simple variables");
+   Float_t px, py, pz;
+   Double_t random;
+   Int_t ev;
+   t1.Branch("px",&px,"px/F");
+   t1.Branch("py",&py,"py/F");
+   t1.Branch("pz",&pz,"pz/F");
+   t1.Branch("random",&random,"random/D");
+   t1.Branch("ev",&ev,"ev/I");
+   //fill the tree
+   for (Int_t i=0;i<50000000;i++) {
+     gRandom->Rannor(px,py);
+     pz = px*px + py*py;
+     random = gRandom->Rndm();
+     ev = i;
+     t1.Fill();
+  }
+  //save the Tree header. The file will be automatically closed
+  //when going out of the function scope
+  t1.Write();
 }
