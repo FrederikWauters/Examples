@@ -11,5 +11,7 @@ int main( int argc, const char* argv[] )
 	  }
   }
   
+  printf("MY_VALUE is %d\n",MY_VALUE);
+  
   return 1;
 }
