@@ -1,6 +1,3 @@
-INC_DIR 	= $(MIDASSYS)/include
-LIB_DIR 	= $(MIDASSYS)/linux/lib
-
 TARGET = program
 LIBS = -lm -lpthread
 CC = gcc
@@ -11,7 +8,6 @@ CFLAGS = -g -Wall -I$(INC_DIR) -std=c99
 default: $(TARGET)
 all: default
 
-LIB = $(LIB_DIR)/libmidas.a
 
 OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
 HEADERS = $(wildcard *.h)

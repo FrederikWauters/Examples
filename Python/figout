@@ -1,0 +1,43 @@
+
+
+<style>
+
+</style>
+
+<div id="fig_el154411401413104370724533818492"></div>
+<script>
+function mpld3_load_lib(url, callback){
+  var s = document.createElement('script');
+  s.src = url;
+  s.async = true;
+  s.onreadystatechange = s.onload = callback;
+  s.onerror = function(){console.warn("failed to load library " + url);};
+  document.getElementsByTagName("head")[0].appendChild(s);
+}
+
+if(typeof(mpld3) !== "undefined" && mpld3._mpld3IsLoaded){
+   // already loaded: just create the figure
+   !function(mpld3){
+       
+       mpld3.draw_figure("fig_el154411401413104370724533818492", {"axes": [{"xlim": [-0.045477629437773677, 1.0007777717000401], "yscale": "linear", "axesbg": "#FFFFFF", "texts": [], "zoomable": true, "images": [], "xdomain": [-0.045477629437773677, 1.0007777717000401], "ylim": [-0.0013967881648936503, 0.96163540305010142], "paths": [], "sharey": [], "sharex": [], "axesbgalpha": null, "axes": [{"scale": "linear", "tickformat": null, "grid": {"gridOn": false}, "visible": true, "fontsize": 10.0, "position": "bottom", "nticks": 8, "tickvalues": null}, {"scale": "linear", "tickformat": null, "grid": {"gridOn": false}, "visible": true, "fontsize": 10.0, "position": "left", "nticks": 7, "tickvalues": null}], "lines": [{"drawstyle": "default", "color": "#1F77B4", "yindex": 1, "coordinates": "data", "dasharray": "none", "zorder": 2, "alpha": 1, "xindex": 0, "linewidth": 1.5, "data": "data01", "id": "el15441140141292395664"}], "markers": [], "id": "el15441140141310609872", "ydomain": [-0.0013967881648936503, 0.96163540305010142], "collections": [], "xscale": "linear", "bbox": [0.125, 0.10999999999999999, 0.77500000000000002, 0.77000000000000002]}], "height": 480.0, "width": 640.0, "plugins": [{"type": "reset"}, {"enabled": false, "button": true, "type": "zoom"}, {"enabled": false, "button": true, "type": "boxzoom"}], "data": {"data01": [[0.8009515370173695, 0.8119085148586539], [0.9532207080119576, 0.24886025284476287], [0.6510687696608697, 0.15775711191241837], [0.7432816538116207, 0.21468658693062959], [0.4339039124255364, 0.7037835278228959], [0.22584197573062081, 0.5342269275875794], [0.5712414535252, 0.6563691203919038], [0.9408465015515154, 0.5659578543381142], [0.029754133595464305, 0.2069555173894393], [0.6939865671116547, 0.37356199906705], [0.40630125616335355, 0.9130547780785341], [0.5171712080658555, 0.11931980382903629], [0.7365818728440034, 0.21611595084231483], [0.009163423207940502, 0.13226610230809532], [0.002079434250308765, 0.619591072972442], [0.6033741609276443, 0.15242976993817403], [0.700539431189668, 0.9178612125403289], [0.2444784176492436, 0.5332481873685704], [0.6534243376193072, 0.331926729936842], [0.22897289966818168, 0.042377402344878856]]}, "id": "el15441140141310437072"});
+   }(mpld3);
+}else if(typeof define === "function" && define.amd){
+   // require.js is available: use it to load d3/mpld3
+   require.config({paths: {d3: "https://mpld3.github.io/js/d3.v3.min"}});
+   require(["d3"], function(d3){
+      window.d3 = d3;
+      mpld3_load_lib("https://mpld3.github.io/js/mpld3.v0.3.js", function(){
+         
+         mpld3.draw_figure("fig_el154411401413104370724533818492", {"axes": [{"xlim": [-0.045477629437773677, 1.0007777717000401], "yscale": "linear", "axesbg": "#FFFFFF", "texts": [], "zoomable": true, "images": [], "xdomain": [-0.045477629437773677, 1.0007777717000401], "ylim": [-0.0013967881648936503, 0.96163540305010142], "paths": [], "sharey": [], "sharex": [], "axesbgalpha": null, "axes": [{"scale": "linear", "tickformat": null, "grid": {"gridOn": false}, "visible": true, "fontsize": 10.0, "position": "bottom", "nticks": 8, "tickvalues": null}, {"scale": "linear", "tickformat": null, "grid": {"gridOn": false}, "visible": true, "fontsize": 10.0, "position": "left", "nticks": 7, "tickvalues": null}], "lines": [{"drawstyle": "default", "color": "#1F77B4", "yindex": 1, "coordinates": "data", "dasharray": "none", "zorder": 2, "alpha": 1, "xindex": 0, "linewidth": 1.5, "data": "data01", "id": "el15441140141292395664"}], "markers": [], "id": "el15441140141310609872", "ydomain": [-0.0013967881648936503, 0.96163540305010142], "collections": [], "xscale": "linear", "bbox": [0.125, 0.10999999999999999, 0.77500000000000002, 0.77000000000000002]}], "height": 480.0, "width": 640.0, "plugins": [{"type": "reset"}, {"enabled": false, "button": true, "type": "zoom"}, {"enabled": false, "button": true, "type": "boxzoom"}], "data": {"data01": [[0.8009515370173695, 0.8119085148586539], [0.9532207080119576, 0.24886025284476287], [0.6510687696608697, 0.15775711191241837], [0.7432816538116207, 0.21468658693062959], [0.4339039124255364, 0.7037835278228959], [0.22584197573062081, 0.5342269275875794], [0.5712414535252, 0.6563691203919038], [0.9408465015515154, 0.5659578543381142], [0.029754133595464305, 0.2069555173894393], [0.6939865671116547, 0.37356199906705], [0.40630125616335355, 0.9130547780785341], [0.5171712080658555, 0.11931980382903629], [0.7365818728440034, 0.21611595084231483], [0.009163423207940502, 0.13226610230809532], [0.002079434250308765, 0.619591072972442], [0.6033741609276443, 0.15242976993817403], [0.700539431189668, 0.9178612125403289], [0.2444784176492436, 0.5332481873685704], [0.6534243376193072, 0.331926729936842], [0.22897289966818168, 0.042377402344878856]]}, "id": "el15441140141310437072"});
+      });
+    });
+}else{
+    // require.js not available: dynamically load d3 & mpld3
+    mpld3_load_lib("https://mpld3.github.io/js/d3.v3.min.js", function(){
+         mpld3_load_lib("https://mpld3.github.io/js/mpld3.v0.3.js", function(){
+                 
+                 mpld3.draw_figure("fig_el154411401413104370724533818492", {"axes": [{"xlim": [-0.045477629437773677, 1.0007777717000401], "yscale": "linear", "axesbg": "#FFFFFF", "texts": [], "zoomable": true, "images": [], "xdomain": [-0.045477629437773677, 1.0007777717000401], "ylim": [-0.0013967881648936503, 0.96163540305010142], "paths": [], "sharey": [], "sharex": [], "axesbgalpha": null, "axes": [{"scale": "linear", "tickformat": null, "grid": {"gridOn": false}, "visible": true, "fontsize": 10.0, "position": "bottom", "nticks": 8, "tickvalues": null}, {"scale": "linear", "tickformat": null, "grid": {"gridOn": false}, "visible": true, "fontsize": 10.0, "position": "left", "nticks": 7, "tickvalues": null}], "lines": [{"drawstyle": "default", "color": "#1F77B4", "yindex": 1, "coordinates": "data", "dasharray": "none", "zorder": 2, "alpha": 1, "xindex": 0, "linewidth": 1.5, "data": "data01", "id": "el15441140141292395664"}], "markers": [], "id": "el15441140141310609872", "ydomain": [-0.0013967881648936503, 0.96163540305010142], "collections": [], "xscale": "linear", "bbox": [0.125, 0.10999999999999999, 0.77500000000000002, 0.77000000000000002]}], "height": 480.0, "width": 640.0, "plugins": [{"type": "reset"}, {"enabled": false, "button": true, "type": "zoom"}, {"enabled": false, "button": true, "type": "boxzoom"}], "data": {"data01": [[0.8009515370173695, 0.8119085148586539], [0.9532207080119576, 0.24886025284476287], [0.6510687696608697, 0.15775711191241837], [0.7432816538116207, 0.21468658693062959], [0.4339039124255364, 0.7037835278228959], [0.22584197573062081, 0.5342269275875794], [0.5712414535252, 0.6563691203919038], [0.9408465015515154, 0.5659578543381142], [0.029754133595464305, 0.2069555173894393], [0.6939865671116547, 0.37356199906705], [0.40630125616335355, 0.9130547780785341], [0.5171712080658555, 0.11931980382903629], [0.7365818728440034, 0.21611595084231483], [0.009163423207940502, 0.13226610230809532], [0.002079434250308765, 0.619591072972442], [0.6033741609276443, 0.15242976993817403], [0.700539431189668, 0.9178612125403289], [0.2444784176492436, 0.5332481873685704], [0.6534243376193072, 0.331926729936842], [0.22897289966818168, 0.042377402344878856]]}, "id": "el15441140141310437072"});
+            })
+         });
+}
+</script>
