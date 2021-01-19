@@ -1,0 +1,49 @@
+
+# DO NOT DELETE
+
+./FFT_C.so: /home/frederik/root/include/TVirtualFFT.h
+./FFT_C.so: /home/frederik/root/include/TObject.h
+./FFT_C.so: /home/frederik/root/include/Rtypes.h
+./FFT_C.so: /home/frederik/root/include/RConfig.h
+./FFT_C.so: /home/frederik/root/include/RVersion.h
+./FFT_C.so: /home/frederik/root/include/DllImport.h
+./FFT_C.so: /home/frederik/root/include/Rtypeinfo.h
+./FFT_C.so: /home/frederik/root/include/snprintf.h
+./FFT_C.so: /home/frederik/root/include/strlcpy.h
+./FFT_C.so: /home/frederik/root/include/TGenericClassInfo.h
+./FFT_C.so: /home/frederik/root/include/TSchemaHelper.h
+./FFT_C.so: /home/frederik/root/include/TStorage.h
+./FFT_C.so: /home/frederik/root/include/TVersionCheck.h
+./FFT_C.so: /home/frederik/root/include/Riosfwd.h
+./FFT_C.so: /home/frederik/root/include/TBuffer.h
+./FFT_C.so: /home/frederik/root/include/TString.h
+./FFT_C.so: /home/frederik/root/include/TMathBase.h
+./FFT_C.so: /home/frederik/root/include/TF1.h
+./FFT_C.so: /home/frederik/root/include/TFormula.h
+./FFT_C.so: /home/frederik/root/include/TNamed.h
+./FFT_C.so: /home/frederik/root/include/TBits.h
+./FFT_C.so: /home/frederik/root/include/TObjArray.h
+./FFT_C.so: /home/frederik/root/include/TSeqCollection.h
+./FFT_C.so: /home/frederik/root/include/TCollection.h
+./FFT_C.so: /home/frederik/root/include/TIterator.h
+./FFT_C.so: /home/frederik/root/include/TAttLine.h
+./FFT_C.so: /home/frederik/root/include/TAttFill.h
+./FFT_C.so: /home/frederik/root/include/TAttMarker.h
+./FFT_C.so: /home/frederik/root/include/Math/ParamFunctor.h
+./FFT_C.so: /home/frederik/root/include/TCanvas.h
+./FFT_C.so: /home/frederik/root/include/TPad.h
+./FFT_C.so: /home/frederik/root/include/TVirtualPad.h
+./FFT_C.so: /home/frederik/root/include/TAttPad.h
+./FFT_C.so: /home/frederik/root/include/TVirtualX.h
+./FFT_C.so: /home/frederik/root/include/TAttText.h
+./FFT_C.so: /home/frederik/root/include/GuiTypes.h
+./FFT_C.so: /home/frederik/root/include/Buttons.h
+./FFT_C.so: /home/frederik/root/include/TQObject.h
+./FFT_C.so: /home/frederik/root/include/TAttBBox2D.h
+./FFT_C.so: /home/frederik/root/include/TPoint.h
+./FFT_C.so: /home/frederik/root/include/TAttCanvas.h
+./FFT_C.so: /home/frederik/root/include/TCanvasImp.h
+./FFT_C.so: /home/frederik/root/include/TMath.h
+./FFT_C.so: /home/frederik/root/include/TError.h
+./FFT_C.so: /home/frederik/root/include/cintdictversion.h /home/frederik/root/include/RVersion.h
+FFT_C__ROOTBUILDVERSION= 5.34/32

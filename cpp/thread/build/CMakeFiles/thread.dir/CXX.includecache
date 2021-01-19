@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/frederik/Analysis/Examples/cpp/thread/thread.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+memory
+-
+random
+-
+chrono
+-
+thread
+-
+pthread.h
+-
+

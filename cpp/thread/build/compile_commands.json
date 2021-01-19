@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/frederik/Analysis/Examples/cpp/thread/build",
+  "command": "/usr/bin/g++-7    -g   -pthread -o CMakeFiles/thread.dir/thread.cpp.o -c /home/frederik/Analysis/Examples/cpp/thread/thread.cpp",
+  "file": "/home/frederik/Analysis/Examples/cpp/thread/thread.cpp"
+}
+]
